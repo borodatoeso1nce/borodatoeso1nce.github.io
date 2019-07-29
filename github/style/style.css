@@ -1,0 +1,212 @@
+.firstHeadRow {
+	margin: 0 5% 0 5%;
+	height: 30px;
+	width: 90%;
+	border-bottom: 1.5px solid #8c8c8c;
+	display: flex;
+	align-items: center;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13px;
+
+}
+
+.firstHeadRow a {
+	margin: 0 5px 0 5px;
+	color: #e80051;
+	text-decoration: none;
+	text-align: center;
+}
+
+.firstHeadRow img {
+	width: 15px;
+	height: 15px;
+}
+
+.headLinks {
+	margin: 0 5px 0 5px;
+	display: inline-flex;
+	align-items: center;
+ }
+
+ .blockOfmainLinks{ 
+
+ }
+
+.ohterBlocksHead {
+	display: inline-flex;
+	align-items: center;
+	margin-left: auto;
+	float: right;
+}
+
+.icons {
+	margin: 0 10px 0 10px;
+	flex: 1;
+}
+
+.selectHead {
+	border-radius: 5px;
+	border-color: #e80051;
+	border-width: 0.5px;
+}
+
+.optionHead {
+	background-color: #e80051;
+	color: white;
+}
+
+.favorite {
+	display: flex;
+}
+
+.favorite p {
+	display: inline-flex;
+	margin-left: 10px
+}
+
+  /*End First Row*/
+
+.secondHeadRow {
+
+	margin: 15px 5% 0 5%;
+	height: 55px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.columsHead {
+	margin: 0 25px 0 25px;
+	width: 20%;
+	height: 100%;
+}
+
+.columsHead p {
+	margin: 0px 0 5px 0;
+	font-weight: 300;
+	color: #949293;
+}
+
+.columsHead a {
+	font-size: 27px;
+	font-weight: 800;
+	color: black;
+	text-decoration: none;
+}
+
+.logo {
+}
+
+.userCart {
+	width: auto;
+	height: 56px;
+}
+
+.userCart img {
+	width: auto;
+	height: 56px;
+}
+
+.cityOrder a {
+	border-bottom: 1px dashed black;
+}
+
+/*  End Second Row    */
+
+.mainMenu {
+	width: 100%;
+	height: 45px;
+	background: linear-gradient(to left, rgba(255, 0, 51, 1), rgba(255, 0, 187, 1));
+}
+
+.linkMainMenu {
+	margin: 0 15px 0 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.generalStyleForLink {
+	padding: 0 10% 0 10%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+/*Content begin*/
+
+.contentWrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.wrapperBg {
+	background-image: url(../source/pictures/backgroundPick.jpg);
+	background-size: cover;
+	filter: blur(3px);
+	width: 100%;
+	height: 400px;
+	position: absolute;
+}
+
+.sliderWripper {
+	width: 425px;
+	height: 450px;
+	background: rgba(60, 16, 84, 0.4);
+	position: absolute;
+	z-index: 2;
+	margin: 50px 0 0 50%;
+}
+
+.firstRowSlider {
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 17px;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.firstRowSlider {
+	margin: 25px 10px 0 10px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.secondRowSlider {
+	margin: 30px 10px 0 10px;
+	font-size: 30px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 1.2;
+}
+
+.thirdRowSlider {
+	margin: 30px 10px 50px 10px;
+	font-family: 'Neucha', cursive;
+	color:#edd2fc;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.catalogLink {
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	color: white;
+	text-decoration: none;
+}
+
+.fourthRowSlider{
+	padding: 50px 10px 0 10px;
+}
+
